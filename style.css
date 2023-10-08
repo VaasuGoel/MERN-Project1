@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
+*{
+    margin: 0;
+    padding:0;
+}
+body{
+    background-color:rgb(0,0,33);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 80px;
+    background-color:hsla(223, 91%, 47%, 0.785);
+}
+
+nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav ul li{
+    list-style: none;
+    margin: 0 25px;
+}
+
+.lf{
+    font-size: 1.5rem;
+}
+
+.first{
+    display: flex;
+    justify-content: space-around;
+    margin:100px 0;
+    align-items: center;
+}
+.first > div{
+    width: 30%;
+}
+
+.left{
+    font-size: 3rem;
+    margin:10%;
+}
+img{
+    margin:20% 10% 20%;
+}
+
+.color{
+    color: #b5fd26;
+}
+.color1{
+    color: #ce26fd;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    color:red;
+    font-size: 1.4rem;
+}
+.lineUp {
+    animation: 2s anim-lineUp ease-out infinite;
+  }
+  @keyframes anim-lineUp {
+    0% {
+      opacity: 0;
+      transform: translateY(80%);
+    }
+    20% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+      transform: translateY(0%);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0%);
+    }
+  }
+
+  .second{
+
+    max-width: 80vw;
+    margin:auto;
+    font-size: 1.2rem;
+    height:60vh;
+  }
+  .text{
+    color: #626264;
+    font-size: medium;
+  }
+  .wrk{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+  }
+
+  footer{
+    justify-content: space-around;
+    height: 80px;
+    background-color: hsla(223, 91%, 47%, 0.785); ;
+  }
+  footer ul{
+    display: flex;
+    align-items: center;
+  }
+  footer ul li{
+    list-style: none;
+  }
+
+  button {
+    background-color: #fb220a;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    align-items: center;
+}
+
+button:hover {
+    background-color: hsl(228, 84%, 62%);
+    cursor:pointer;
+}
